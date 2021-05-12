@@ -79,7 +79,8 @@ from typing import Any, List
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-from crypto_wallet import generate_account, get_balance, send_transaction
+from crypto_wallet import * 
+# from crypto_wallet import generate_account, get_balance, send_transaction
 
 ################################################################################
 # Fintech Finder Candidate Information
@@ -95,7 +96,6 @@ candidate_database = {
 
 # A list of the FinTech Finder candidates first names
 people = ["Lane", "Ash", "Jo", "Kendall"]
-
 
 def get_people():
     """Display the database of Fintech Finders candidate information."""
